@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.mandiv{
+    width: 1250px;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header-secion, .footer-setion {
+    background-color: #2c3e50;
+    padding: 40px;
+    box-shadow: 1px 1px 6px black;
+  }
+  .header-secion ul, .footer-setion ul {
+    list-style: none;
+  }
+  .header-secion ul li, .footer-setion ul li {
+    display: inline-block;
+  }
+  .header-secion ul li a, .footer-setion ul li a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 33px;
+    background: #e67e22;
+    font-weight: 400;
+  }
+
+ .header-secion ul li:hover a, .footer-setion ul li:hover a{
+    background-color: white; 
+     border: 1px solid #f39c12; 
+     color: #e67e22;
+ } 
+
+ .header-secion ul:hover li, .footer-setion ul:hover li {
+  background-color: white;
+ } 
+ .slid-setion {
+    background: url(https://as2.ftcdn.net/v2/jpg/03/45/68/45/1000_F_345684574_OYNnp7nlhMH7roygZMCewLHAMuXunrB2.jpg);
+      background-size: auto;
+    background-size: cover;
+    padding: 53px 0;
+    color:black;
+  }
+  .slid-setion h1 {
+    font-size: 28px;
+    padding: 26px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .service-setion {
+    background: #d35400;
+    padding: 44px 0;
+    color: white;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 19px;
+  } 
+  .service-setion ul li:nth-child(1) {
+    color: rgb(10, 25, 106);
+    font-size: 26px;
+    list-style: none;
+    font-weight: 600;
+    margin: 11px 0;
+  }
+  .service-setion ul li:nth-child(2){
+    color: #ecf0f1;
+    font-size: 23px;
+    list-style: none;
+    font-weight: 600; 
+    margin-top: 10px;
+  }
+  .service-setion ul li:nth-child(3){
+    color: #f1c40f;
+    font-size: 23px;
+    list-style: none;
+    font-weight: 600;
+    margin: 10px;
+  }
+  .service-setion p {
+    padding: 23px 32px;
+    font-size: 18px;
+  } 
+
+  .slid-setion p {
+    margin: auto;
+    font-size: 18px;
+    padding: 29px 0;
+  }
+  .slid-setion a {
+    font-size: 24px; 
+   transition: .4s;
+    
+  } 
+  .slid-setion:hover a{
+    background: #d35400;
+  }
+  .footer-setion p {
+    color: white;
+    padding: 23px 0;
+    font-size: 22px;
+  }
